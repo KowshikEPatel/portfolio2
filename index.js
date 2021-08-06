@@ -1,0 +1,1 @@
+//Hi, I am, a full stack developer based in Bangalore. I am passionate about <span className='focus'>problem solving</span> and <span className='focus'>building accessible, intuitive user interfaces</span>.
