@@ -1,4 +1,4 @@
-//
+//btn btn github_link
 
 function createDomMani(ele,eleClassName="",...arr){
     var element1=document.createElement(ele);

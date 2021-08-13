@@ -12,7 +12,7 @@ body{
     line-height:1.8 ;
     color: aliceblue;
     padding-left:15%;
-    padding-top:6%;
+    padding-top:0%;
     padding: 15%;
     font-family: Tahoma, sans-serif;
     display: flex;
@@ -38,13 +38,22 @@ body{
 }
 
 .resume{
-    width: 150px;
+    
     height: 40px;
     border-radius: 40px;
     background-color: aliceblue;
     border:0px;
     font-size: 1.1rem;
     font-weight: 500;
+    margin:5px;
+    padding: 10px;
+}
+.width1{
+    width: 330px;
+}
+
+.width2{
+    width: 200px; 
 }
 
 .background__description{
@@ -55,12 +64,18 @@ body{
     font-weight: 300;
 }
 
+.cardshadow{
+    height: 550px;
+    box-shadow: 5px 5px #888888;
+    display: flex;
+    flex-direction: column;
+}
+
 .github_link{
     font-size:1.1rem ;
     font-weight: 330;
     background-color: aliceblue;
-    width: 300px;
-    height: 50px;
+    border:blue 1px solid;
     border-radius: 50px;
     border:0px;
 }
@@ -68,9 +83,14 @@ body{
 .project_title{
     background-color: #901010;
     color: aliceblue;
-    height:40%;
     display: grid;
     place-items: center;
+    padding: 10px;
+}
+
+.cardstitle{
+    font-size: 1.3rem;
+    font-weight: 550;
 }
 
 #backgrounddiv{
@@ -78,7 +98,7 @@ body{
 }
 
 .card-text{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 450;
 }
 
