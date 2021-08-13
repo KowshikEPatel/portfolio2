@@ -19,8 +19,9 @@ body{
     justify-content: space-between;
 }
 
-.photo{
-    border-radius: 15px;
+.photo>img{
+    width: 200px;
+    height: auto;
 }
 
 .position{
@@ -65,7 +66,7 @@ body{
 }
 
 .cardshadow{
-    height: 550px;
+    
     box-shadow: 5px 5px #888888;
     display: flex;
     flex-direction: column;
