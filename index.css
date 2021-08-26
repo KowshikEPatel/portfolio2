@@ -12,7 +12,7 @@ body{
     line-height:1.8 ;
     color: aliceblue;
     padding-left:15%;
-    padding: 10% 15% 0 15%;
+    padding: 12% 15% 0 15%;
     font-family: Tahoma, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -107,26 +107,24 @@ body{
 
 }
 
-.custom-shape-divider-bottom-1628184407 {
+.custom-shape-divider-top-1629963521 {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1628184407 svg {
+.custom-shape-divider-top-1629963521 svg {
     position: relative;
     display: block;
-    width: calc(185% + 1.3px);
-    height: 140px;
+    width: calc(100% + 1.3px);
+    height: 150px;
 }
 
-.custom-shape-divider-bottom-1628184407 .shape-fill {
+.custom-shape-divider-top-1629963521 .shape-fill {
     fill: #FFFFFF;
-    animation: wave linear 8s infinite;
 }
     /**/
 .footer{
